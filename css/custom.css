@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
 body {
     margin: 0;
     background: #000;
@@ -31,7 +33,7 @@ body {
 
 .navbar .nav-title {
     text-decoration: none;
-    /* font-family: Headliner, sans-serif; */
+    font-family: 'Barlow Condensed', sans-serif;
     color: white;
     padding: 0 10px;
     font-size: 30px;
@@ -45,6 +47,8 @@ body {
 
 .navbar .nav-link {
     position: relative;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: x-large;
     text-decoration: none;
     color: white;
     transition: all .3s ease;
