@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
-
 body {
     margin: 0;
     background: #000;
+    height: 100vh;
+}
+
+.container {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center
 }
 
 .navbar {
@@ -14,6 +21,11 @@ body {
     width: 100%;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .navbar ul {
