@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-    background-color: #ffffff94;
+    background-color: rgba(255, 255, 255, 0.5);
     width: 50%;
     height: auto;
     margin: 0 auto;
@@ -126,7 +126,7 @@ video {
 }
 
 .portfolio_item {
-    background-color: #ffffff94;
+    background-color: rgba(255, 255, 255, 0.5);
     width: auto;
     height: 100%;
     display: flex;
