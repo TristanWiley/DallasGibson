@@ -1,24 +1,26 @@
-var currentHash = window.location.hash.substr(1);
+var currentHash = window.location.hash.substr(1)
 $(document).ready(function () {
-    handleHash(currentHash);
+    handleHash(currentHash)
 
     $('a').click(function () {
-        var value = this.hash.substr(1);
-        handleHash(value);
-    });
-});
+        var value = this.hash.substr(1)
+        handleHash(value)
+    })
+})
 
 function handleHash(hash) {
     switch (hash) {
         case "":
-            $("#container").load("partials/home.html", function () {}).hide().fadeIn();
-            break;
+            $("#container").load("partials/home.html", function () {}).hide().fadeIn()
+            break
         case "about":
-            $("#container").load("partials/about.html", function () {}).hide().fadeIn();
-            break;
+            $("#container").load("partials/about.html", function () {}).hide().fadeIn()
+            break
         case "portfolio":
-            // $("#container").load("partials/portfolio.html", function () {}).hide().fadeIn();
+            $("#container").load("partials/portfolio.html", function () {}).hide().fadeIn()
+            break
         case "contact":
-            // $("#container").load("partials/contact.html", function () {}).hide().fadeIn();
+            $("#container").load("partials/contact.html", function () {}).hide().fadeIn()
+            break
     }
 }
