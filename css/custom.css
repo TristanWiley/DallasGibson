@@ -19,6 +19,12 @@ body {
     margin: 0px 0px 10px 0px;
 }
 
+.container .title_name {
+    color: white;
+    font-size: 8rem;
+    font-family: 'Archivo', sans-serif;
+}
+
 .content p {
     font-size: 1.25em;
 }
