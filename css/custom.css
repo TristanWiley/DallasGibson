@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Barlow|Barlow+Condensed');
 body {
     margin: 0;
     background: #000;
@@ -14,15 +14,18 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-.content h1 {
-    font-size: 3em;
-    margin: 0px 0px 10px 0px;
+.container .trianglelogo {
+    height: 100px;
 }
 
-.container .title_name {
-    color: white;
-    font-size: 8rem;
-    font-family: 'Archivo', sans-serif;
+.container .textlogo {
+    height: 50px;
+}
+
+.container .media-text {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.35em;
+    color: #FAF6E9;
 }
 
 .content p {
@@ -104,7 +107,7 @@ body {
 } */
 
 video {
-    opacity: .5;
+    /* opacity: .5; */
     position: fixed;
     top: 50%;
     left: 50%;
