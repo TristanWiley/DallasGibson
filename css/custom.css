@@ -353,3 +353,8 @@ min-height: 10px;
 .vid-list-container::-webkit-scrollbar-thumb:horizontal {
 min-width: 10px;
 }
+
+.home_page {
+  margin: auto;
+  width: fit-content;
+}
