@@ -5,7 +5,8 @@
     <img src="/assets/me.jpg" />
     <div class="about_description">
       <h5 class="description_title">LET YOUR VIDEO TELL A STORY</h5>
-      <p class="description_one">I fell in love with video for many reasons; for its beauty, its creativity, its emotion, but most importantly,
+      <p class="description_one">I fell in love with video for many reasons; for its beauty, its creativity, its
+        emotion, but most importantly,
         for the endless different stories it can tell. Whether it be a passion project, a short film, a product
         advertisement, or an event that you always want to remember, your idea can become a video you can share with
         family, friends, and the world.
@@ -16,7 +17,14 @@
         across
         the US.
       </p>
-      <a class="button" href="#contact">Let's Get Started</a>
+      <a id="contactButton" class="button" href="#contact">Let's Get Started</a>
     </div>
   </div>
+  <script>
+    $('#contactButton').click(function () {
+      console.log("WAT")
+      var value = this.hash.substr(1)
+      handleHash(value)
+    })
+  </script>
 </div>
