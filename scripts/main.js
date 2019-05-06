@@ -16,6 +16,9 @@ function handleHash(hash) {
     case "about":
       $("#container").load("partials/about.html", function () { }).hide().fadeIn()
       break
+    case "reel":
+      $("#container").load("partials/reel.html", function () { }).hide().fadeIn()
+      break
     case "portfolio":
       $("#container").load("partials/portfolio.html", function () { }).hide().fadeIn()
       break
